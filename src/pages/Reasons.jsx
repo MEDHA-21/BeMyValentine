@@ -1,60 +1,20 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const reasons = [
-    {
-        id: 1,
-        text: "I love you because you tolerate my childish tantrums with so much patience, like you were made to handle my drama with a smile — melts my heart every time."
-    },
-    {
-        id: 2,
-        text: "You’re my comfort and my fun—my partner and my best friend—everything in one."
-    },
-    {
-        id: 3,
-        text: "The way you make me smile, even on my worst moments."
-    },
-    {
-        id: 4,
-        text: "Your unwavering support and belief in me, even when I doubt myself."
-    },
-    {
-        id: 5,
-        text: "Your warm hugs that feel like home. You’re my safest place — no matter how chaotic the day is, coming back to you feels like home."
-    },
-    {
-        id: 6,
-        text: "The way you look at me with those loving eyes and a cute smile , always ready to embrace me with love and affection."
-    },
-    {
-        id: 7,
-        text: "Your kindness and the beautiful soul you have."
-    },
-    {
-        id: 8,
-        text: "You spoil me in the sweetest ways, and it’s not just gifts—it’s the attention, the time, the effort."
-    },
-    {
-        id: 9,
-        text: "You stand by me in front of the world — never complaining about me , simply treating me with love, loyalty and respect."
-    },
-    {
-        id: 10,
-        text: "Your patience and understanding when I'm being difficult. You’re patient with my moods and strong with my worries — you don’t judge, you understand."
-    },
-    {
-        id: 11,
-        text: "How you make me want to be a better person every day."
-    },
-    {
-        id: 12,
-        text: "Because you're simply YOU - and that's more than enough. You're my everything!",
-    },
-    {
-        id: 13,
-        text: "Most of all, I love you because with you I don’t have to act strong all the time. I can just be your baby girl… and you still choose me, love me, and spoil me.",
-        special: true
-    }
+    { id: 1, text: "Your smile lights up my entire world." },
+    { id: 2, text: "You're my best friend and my soulmate." },
+    { id: 3, text: "The way you make me laugh, even on my worst days." },
+    { id: 4, text: "Your unwavering support and belief in me." },
+    { id: 5, text: "Your warm hugs that feel like home." },
+    { id: 6, text: "The way you look at me with those loving eyes." },
+    { id: 7, text: "Your kindness and the beautiful soul you have." },
+    { id: 8, text: "How you remember the little things that matter to me." },
+    { id: 9, text: "The adventures we share together, big and small." },
+    { id: 10, text: "Your patience and understanding when I'm being difficult." },
+    { id: 11, text: "How you make me want to be a better person every day." },
+    { id: 12, text: "The comfort of simply being in your presence." },
+    { id: 13, text: "Because you're simply YOU - and that's more than enough!", special: true }
 ]
 
 function Reasons() {

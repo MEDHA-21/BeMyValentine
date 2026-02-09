@@ -5,63 +5,63 @@ import { Link } from 'react-router-dom'
 const quizQuestions = [
     {
         id: 1,
-        image: '/images/img1.jpg',
-        question: "When was this magical moment captured📱?",
+        image: '/images/photo1.jpg',
+        question: "When was this magical moment captured?",
         options: [
-            { id: 'a', text: 'Our 2nd video call - March 2024' },
+            { id: 'a', text: 'Our First Date - 2020' },
             { id: 'b', text: 'Summer Vacation - 2021' },
-            { id: 'c', text: 'Our first video call - March 2024', correct: true },
+            { id: 'c', text: 'Anniversary Trip - 2022', correct: true },
             { id: 'd', text: "New Year's Eve - 2023" }
         ],
-        memoryNote: "💕 This was such a special day! I was really nervous because I had never seen you in person, only in pictures.",
+        memoryNote: "💕 Add your own memory note here!"
     },
     {
         id: 2,
-        image: '/images/img2.jpg',
-        question: "Remember this cute heart-shaped pizza ❤️🍕 with Mr. Handsome 😎 in the background?",
+        image: '/images/photo2.jpg',
+        question: "Remember this adventure?",
         options: [
-            { id: 'a', text: 'Divyashree techpark - Vista office - Bengaluru' },
-            { id: 'b', text: 'Connaught Place - New Delhi', correct: true },
-            { id: 'c', text: 'Nexus Shantiniketan - food court' },
-            { id: 'd', text: '1st date - Bengaluru' }
+            { id: 'a', text: 'Beach Getaway - Spring 2021', correct: true },
+            { id: 'b', text: 'Mountain Hiking - Fall 2021' },
+            { id: 'c', text: 'City Exploration - Summer 2022' },
+            { id: 'd', text: 'Weekend Road Trip - 2023' }
         ],
-        memoryNote: "💕 I'll never forget this day with you! It was a much needed time with you to make my heart understand that we are tied for life!"
+        memoryNote: "💕 Add your own memory note here!"
     },
     {
         id: 3,
-        image: '/images/img3.jpg',
-        question: "Where did we take this cute selfie? 🤳",
+        image: '/images/photo3.jpg',
+        question: "When did we take this cute selfie?",
         options: [
-            { id: 'a', text: "Hoy Punjab" },
-            { id: 'b', text: 'Punjab Grill ' },
-            { id: 'c', text: "Pind Baluchi" },
-            { id: 'd', text: 'Dhaba Estd 1986', correct: true }
+            { id: 'a', text: "Valentine's Day - 2021" },
+            { id: 'b', text: 'Christmas Party - 2022' },
+            { id: 'c', text: "Friend's Wedding - 2023" },
+            { id: 'd', text: 'Birthday Celebration - 2024', correct: true }
         ],
-        memoryNote: "💕 It was like I was showing off that I have a guy now, being all lovey-dovey! 💕😊"
+        memoryNote: "💕 Add your own memory note here!"
     },
     {
         id: 4,
-        image: '/images/img4.jpg',
-        question: "This beautiful moment was from...?",
+        image: '/images/photo4.jpg',
+        question: "This cozy moment was from...?",
         options: [
-            { id: 'a', text: 'Our first date before marriage' },
-            { id: 'b', text: 'Our first Valentines Day', correct: true },
-            { id: 'c', text: 'Rainy Day In - Fall 2025' },
-            { id: 'd', text: 'Yaad nhi hai - Oops!' }
+            { id: 'a', text: 'Movie Night - 2020' },
+            { id: 'b', text: 'Lazy Sunday - Summer 2022', correct: true },
+            { id: 'c', text: 'Rainy Day In - Fall 2023' },
+            { id: 'd', text: 'Holiday Season - 2024' }
         ],
-        memoryNote: "💕 Food tastes even tastier when shared with the one you love!!",
+        memoryNote: "💕 Add your own memory note here!"
     },
     {
         id: 5,
-        image: '/images/img5.JPG',
-        question: "Our first international adventure together 🌴🏍️ - where did we do ATV ride?",
+        image: '/images/photo5.jpg',
+        question: "Our most recent memory - when was this?",
         options: [
-            { id: 'a', text: "Alasan Adventure - Ubud" },
-            { id: 'b', text: "Dadi bali adventure - Ubud", correct: true },
-            { id: 'c', text: 'Kuber bali adventure - Ubud' },
-            { id: 'd', text: 'Gorilla ATV Adventure - Ubud' }
+            { id: 'a', text: "Last Valentine's Day" },
+            { id: 'b', text: "New Year's Celebration" },
+            { id: 'c', text: 'Recent Date Night', correct: true },
+            { id: 'd', text: 'Just Last Week!' }
         ],
-        memoryNote: "💕 Our first international trip! We tripped and fell , HA HA HA !!!. What an adventure! 🏍️🌴"
+        memoryNote: "💕 Add your own memory note here!"
     }
 ]
 

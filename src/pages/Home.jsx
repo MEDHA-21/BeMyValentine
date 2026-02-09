@@ -27,14 +27,14 @@ function Home() {
             <div className="main-container">
                 <div className="card valentine-card">
                     <div className="sparkle"></div>
-                    <h1 className="title">Hey Handsome! 💖</h1>
+                    <h1 className="title">Hey Beautiful! 💖</h1>
                     <p className="subtitle">I have something special for you...</p>
 
                     <div className="message-box">
                         <p className="love-message">
-                            I didn’t realize what I was missing until you became the best part of my every day.
-                            By your side, I feel safe enough to be my truest self—completely and unafraid.
-                            You make me smile in ways I never even knew I needed.
+                            Every moment with you feels like a dream come true.
+                            You make my heart skip a beat and my soul feel complete.
+                            I'm so grateful to have you in my life.
                         </p>
                     </div>
 
@@ -83,7 +83,7 @@ function Home() {
                     </Link>
                 </nav>
 
-                <div className="ps-note">PS: Crafted with love, bugs, and mass ginger water ☕ by your personal frontend developer wife 👩‍💻💕</div>
+                <div className="ps-note">PS: Customize this template with your own love story! 💕</div>
             </div>
         </div>
     )
