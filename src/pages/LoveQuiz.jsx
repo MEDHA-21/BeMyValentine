@@ -141,7 +141,7 @@ function LoveQuiz() {
         const message = `💕 *Love Quiz Responses* 💕\n\n${formattedResponses}\n\n---\n_Sent with love from your Valentine_ 💖`
 
         // Open WhatsApp with the message
-        const phoneNumber = '917978654813' // India country code + number
+        const phoneNumber = '91xxxxxxxxxx' // India country code + number
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
         
         window.open(whatsappUrl, '_blank')
